@@ -139,7 +139,7 @@ If you’re learning AWS & DevOps:
 | 29 | What is VPN? | Enables secure remote access via encrypted tunnel. |
 | 30 | What is port number? | Identifies a specific service (Example: HTTP uses port 80). |
 
-☁️ Networking in Cloud & AWS – Professional Q&A Table
+## ☁️ Networking in Cloud & AWS
 | Q.No | Question | Answer |
 |------|-----------|---------|
 | 1 | What is a VPC in AWS? | A Virtual Private Cloud is your private network inside AWS where resources run securely. |
@@ -176,7 +176,8 @@ If you’re learning AWS & DevOps:
 | 24 | What is IPv4? | Uses 32-bit addressing (e.g., 192.168.1.1). |
 | 25 | What is IPv6? | Uses 128-bit addressing (e.g., 2001:db8::1). |
 
-## 🔥 NETWORKING CLASSES & RANGE – Professional Q&A Table (GitHub Format)
+## 🔥 NETWORKING CLASSES & RANGE
+
 ## 🌐 Networking Basics & IP Addressing
 
 | Q.No | Question | Answer |
@@ -206,7 +207,7 @@ If you’re learning AWS & DevOps:
 | 19 | Private IP Range Class B | 172.16.0.0 – 172.31.255.255 |
 | 20 | Private IP Range Class C | 192.168.0.0 – 192.168.255.255 |
 
-🔐 Private vs Public IP
+## 🔐 Private vs Public IP
 | Q.No | Question | Answer |
 |------|----------|--------|
 | 21 | Can two networks use same private IPs? | Yes |
