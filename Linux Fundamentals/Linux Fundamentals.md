@@ -113,120 +113,70 @@ Its hierarchical file system and shell interface enable automation and scripting
 
 
 
-•	## Networking
-ifconfig : Configure network interfaces
-ping : Test network connectivity
-netstat : Network statastics display
-traceroute : Tracing the path an IP packet takes across one or many networks
-iptables : Configure firewall rules
-dig : a flexible toold for interrogating DNS name server
-ip : Check IP
+# 📡 Linux Networking, Services, Processes & Permissions – GitHub Table Format
 
+| **Category** | **Command / Item** | **Description / Purpose** |
+|-------------|---------------------|----------------------------|
+| **Networking** | `ifconfig` | Configure network interfaces |
+| | `ping` | Check network connectivity |
+| | `netstat` | Display network statistics |
+| | `traceroute` | Trace the route of packets |
+| | `iptables` | Configure firewall rules |
+| | `dig` | DNS lookup and query tool |
+| | `ip` | Check network IP details |
+| **System Service** | `systemctl` | Control system services |
+| | `service` | Manage system services |
+| | `chkconfig` | Run-level service management |
+| **Process Management** | `ps` | Display running processes |
+| | `ps -ef | grep java` | Check specific service |
+| | `ps -u` | Show detailed process info |
+| | `ps -A` | List all running & stopped processes |
+| | `top` | Monitor system performance |
+| | `du` | Disk usage of directories/files |
+| | `kill` | Terminate a process |
+| | `killall` | Kill processes by name |
+| **Shell Scripting Tools** | `bash` | Bourne Again Shell |
+| | `sh` | Bourne Shell |
+| | `awk` | Pattern scanning & processing |
+| | `tac` | Reverse output of `cat` |
+| | `grep` | Search lines by keyword |
+| | `sed` | Stream editor for text processing |
+| | `wc` | Word/line/byte count |
+| | `tr` | Translate/replace characters |
+| | `sort` | Sort lines of text |
+| | `diff` | Compare differences between files |
+| | `tee` | Split output to display + save |
+| **System Information** | `uname` | System information |
+| | `df`, `df -h` | Disk storage usage |
+| | `free` | Memory usage |
+| | `hostname` | View or set hostname |
+| | `nslookup` | DNS troubleshooting |
+| | `systeminfo` | System hardware/software info |
+| | `lscpu` | CPU & cores information |
+| | `lsblk` | Block storage devices |
+| | `uname -a`, `cat /etc/os-release` | OS information |
+| **File Permissions** | `chmod` | Change permissions |
+| | `chmod +x file` | Add execute permission |
+| | `chown user file` | Change ownership |
+| | `chgrp group file` | Change group ownership |
+| | `umask` | Set default permissions |
+| | `getfacl file` | Show ACL permissions |
+| **Octal Permission Reference** | `0` | --- No permissions |
+| | `1` | --x Execute only |
+| | `2` | -w- Write only |
+| | `3` | -wx Write + execute |
+| | `4` | r-- Read only |
+| | `5` | r-x Read + execute |
+| | `6` | rw- Read + write |
+| | `7` | rwx Read, write, execute |
+| **User & Group Management** | `useradd john` | Add new user |
+| | `usermod -aG sudo john` | Modify user & add to group |
+| | `userdel john` | Delete user |
+| | `groupadd admins` | Create group |
+| | `groupmod -n developers devs` | Rename group |
+| | `groupdel devs` | Delete group |
 
-•	## System Service
-Systemctl : Control system service 
-Service : Manage system service 
-Chkconfig : Service runlevel management 
-
-•	## Process Management
-ps : Display running processes
-ps -ef | grep java : for check specific service.
-ps –u :display technical all information about the processes
-ps –A : This command lists even those processes that are currently not running.
-top : System performance monitor
-du : how much memory use in specific folder 
-kill : Terminate a process
-killall : Terminate processes by name
-
-•	## Shell Scripting
-bash : Bourne Again Shell
-sh : Bourne Shell
-awk : is a “general scanning and processing language”
-tac : tac does the same thing as cat (in that it concatenates files)
-grep : used to search lines containing a specific keyword in a file
-sed : Stream editor for transformations
-wc : Word Count was detailed in section 5 but has another often overlooked behaviour
-tr : tr is used to “translate characters”
-sort : used to rearrange lines of text in files or from standard input
-diff : diff is used to find differences between two byte streams
-tee : to split the output of a program so that it can be both displayed and saved in a file.
-
-•	## System Information 
-uname : Display System information 
-df, df -h : Disk space usage, mounted, size
-free : Memory usage information 
-hostname : show/set system hostname
-nslookup : command is used to troubleshoot network connectivity issues in the system.
-systeminfo : shows your pc's details.
-lscpu : cpu, core, thread info in server.
-lsblk : disk partition, storage devices.
-uname -a, cat /etc/os-release : showing OS related info.
-
-•	## File Permission 
-chmod : To change file permissions
-chmod +x : Add execute permission to a file
-Usage: To make a file executable.
-Syntax: chmod +x [file]
-Example: chmod +x script.sh
-chown : To change file ownership
-Syntax: chown [owner] [file]
-Example: chown john myfile.txt
-chgrp : To change group ownership
-Syntax: chgrp [group] [file]
-Example: chgrp admin myfile.txt
-umask : Set default file creation permissions
-Syntax: umask [mask]
-Example: umask 022
-getfacl : Get file access control lists (ACL)
-Syntax: getfacl [file]
-Example: getfacl myfile.txt
-Displays the ACLs of myfile.txt.
-
-
-u Means – User, g Means – Group, o Menas – Owner 
-File Level permissions : These control permissions on the file level. 
-r – read, w – write, x – execute…
-Access 	Symbolic Mode	Octal Mode
-Read	r	4
-Write	w	2
-Execute	x	1
-	
-
-
-
-Octal Value 	File Permissions Set 	Permissions Description 
-0	---	No permissions 
-1	--x	Execute permission only 
-2	-w-	Write permission only 
-3	-wx	Write and execute permissions 
-4	r--	Read permission only 
-5	r-x	Read and execute permissions 
-6	rw-	Read and write permissions 
-7	rwx	Read, write, and execute permissions 
-
-
-•	## User And Group Management 
-useradd : Add a new user
-Syntax: useradd [options] username
-Example: useradd john
-usermod : Modify Existing user
-Syntax: usermod [options] username
-Example: usermod -aG sudo john
-userdel : Remove existing user 
-Syntax: userdel [options] username
-Example: userdel john
-groupadd : Create a new group
-Syntax: groupadd [options] groupname
-Example: groupadd admins 
-groupmod : Modify existing group
-Syntax: groupmod [options] groupname
-Example: groupmod -n developers devs
-groupdel : Remove existing group
-Syntax: groupdel groupname
-Example: groupdel devs
-
-… Thank You …
-
+#… Thank You …
 
 #DevOps #AWS #Linux #LearningJourney #CloudComputing #Automation #CareerGrowth #DevOpsEngineer
 
