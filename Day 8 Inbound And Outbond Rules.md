@@ -138,5 +138,15 @@ Internet ------------------> EC2 Instance
 | 4    | Browse to EIP → ✔ Webpage up 🎉 |
 
 ---
+## Thank You
 
-*End of repository summary.*
+## 🔗 Connect With Me
+| 🌐 Platform                  | 🔗 Link                                              |
+| ---------------------------- | ---------------------------------------------------- |
+| 🐙 **GitHub**                | [https://lnkd.in/d2F3JPa3](https://lnkd.in/d2F3JPa3) |
+| ✍️ **Dev.to Blog**           | [https://lnkd.in/dNtgqAME](https://lnkd.in/dNtgqAME) |
+| 💼 **LinkedIn**              | [https://lnkd.in/d3NctxFT](https://lnkd.in/d3NctxFT) |
+| 📄 **Resume (Google Drive)** | [https://lnkd.in/dHDNsd_D](https://lnkd.in/dHDNsd_D) |
+
+## 🔖 Hashtags
+#AWS #DevOps #CloudComputing #AWSLearning #EBS #VolumeMounting #DataPersistence #LearningJourney #CareerGrowth #DevOpsEngineer #AWSCommunity
