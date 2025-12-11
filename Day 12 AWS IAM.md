@@ -102,3 +102,51 @@ A policy is a JSON document that defines allowed actions.
     }
   ]
 }
+
+
+## ✅ 4. Attach Policies (Permissions)
+
+### **Steps:**
+- IAM → **Policies**
+- Create policy
+- Attach to **user / group / role**
+
+---
+
+## ✅ 5. Enable MFA (for security)
+
+MFA adds strong protection during login.
+
+### **Steps:**
+- IAM → Users → Your user → **Security credentials**
+- Click **Assign MFA device**
+- Scan QR code using Google Authenticator / Authy
+- Done
+
+---
+
+## ✅ 6. Use IAM Access Analyzer
+
+IAM Access Analyzer identifies security risks like **public S3 buckets** or **over-permissive policies**.
+
+### **Steps:**
+- IAM → **Access Analyzer**
+- Enable analyzer
+- Check findings
+- Fix over-permissive policies
+
+---
+
+# 🧰 Where IAM is Used in DevOps?
+
+| Task                     | IAM Required? | Example                         |
+|-------------------------|---------------|----------------------------------|
+| CI/CD (GitHub Actions)  | Yes           | Role with OIDC                   |
+| Terraform               | Yes           | IAM Role with policies           |
+| EC2 Logging             | Yes           | CloudWatch role                  |
+| S3 Artifacts            | Yes           | S3 access policy                 |
+| EKS                     | Yes           | IAM roles for Kubernetes         |
+| Jenkins Deployment      | Yes           | IAM user / role                  |
+| Monitoring              | Yes           | CloudWatch permissions           |
+
+---
