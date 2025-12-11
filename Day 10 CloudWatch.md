@@ -55,7 +55,7 @@ CloudWatch helps you:
 | **Insights** | SQL-based log analysis | Find errors in Lambda logs easily |
 | **Synthetics & X-Ray** | App monitoring & tracing | Trace API latency and errors |
 | **Anomaly Detection** | AI detects unusual behaviour | Detect sudden traffic spike |
-
+ 
 ---
 
 ## 🚀 How to Use CloudWatch
