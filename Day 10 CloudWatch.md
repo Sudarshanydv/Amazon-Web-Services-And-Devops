@@ -24,7 +24,7 @@ It collects **metrics, logs, and events** from AWS resources and applications so
 
 - ✔ Monitor performance
 - ✔ Detect issues faster
-- ✔ Automatically take actions when something goes wrong
+- ✔ Automatically take actions when something goes wrong 
 - ✔ Improve operational health and cost visibility
 
 ---
