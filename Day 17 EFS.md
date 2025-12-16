@@ -10,7 +10,7 @@ EFS helps in building **highly available, scalable, and persistent storage solut
 # 🗂️ AWS EFS (DevOps – Shared File System)
     
 ## 🔹 Amazon EFS (Elastic File System)
-
+ 
 ### Service Type
 - File-based storage service
 - Uses **NFS protocol (Port 2049)**
