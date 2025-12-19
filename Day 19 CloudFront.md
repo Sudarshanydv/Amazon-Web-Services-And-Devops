@@ -64,7 +64,7 @@ CloudFront helps by:
 **Origin** is the source of original content.
 
 Common origins:
-- Amazon S3
+- Amazon S3 
 - EC2 Instance
 - Application Load Balancer (ALB)
 - API Gateway
