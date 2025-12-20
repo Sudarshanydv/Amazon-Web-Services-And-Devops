@@ -6,7 +6,7 @@ With Lambda, you only focus on **writing code**, and AWS automatically handles *
   
 AWS Lambda is a core service in **modern DevOps and cloud-native architectures**.  
    
---- 
+---
    
 ## 🔹 What is AWS Lambda? 
 
@@ -112,6 +112,9 @@ AWS Lambda:
 * Scales automatically
 * Reduces operational overhead
 * Fits perfectly into DevOps workflows
+---
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tghsrfw0pts8y4dh0c89.png)
 
 ---
 
