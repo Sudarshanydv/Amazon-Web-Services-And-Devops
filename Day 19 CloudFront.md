@@ -16,7 +16,7 @@ Amazon CloudFront is a **Content Delivery Network (CDN)** service provided by AW
 
 It delivers content like:
 - HTML
-- CSS
+- CSS 
 - JavaScript
 - Images
 - Videos 
