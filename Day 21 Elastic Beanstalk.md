@@ -74,7 +74,7 @@ Supported platforms include:
 ### 4. Environment Created
 
 * **Web Server Environment** (most common)
-* **Worker Environment** (background jobs)
+* **Worker Environment** (background jobs) 
 
 ### 5. Application Runs
 
