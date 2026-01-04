@@ -16,7 +16,7 @@ Unlike relational databases (RDS), DynamoDB is **non-relational**, meaning it do
 
 * Hardware provisioning
 * Setup and configuration  
-* Replication and software patching
+* Replication and software patching 
 * Cluster scaling  
     
 ---
